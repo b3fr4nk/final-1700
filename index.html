@@ -9,37 +9,41 @@
 </head>
 <body>
 
-    <Article class="grid">
+    <main class="grid">
         <section id="top-left">
             <h1>
                 <p>Chris Wood FEW Assignment</p>
             </h1>
         </section>
         
-        
         <section id="top-right">
-            <label for="width"> Width </label>
-            <input type="number" id="width" value="100">
+            <label for="width-in"> Width </label>
+            <input type="number" id="width-in" value="100">
         
-            <label for="height">Height</label>
-            <input type="number" id="height" value="100">
+            <label for="height-in">Height</label>
+            <input type="number" id="height-in" value="100">
         
-            <label for="color">Color</label>
-            <input type="color" value="#000000">
+            <label for="color-in">Color</label>
+            <input type="color" value="#000000" id="color-in">
         </section>
         
         <section id="bottom-left">
             <h2>Width</h2>
+            <p id="width">100px</p>
         
             <h2>Height</h2>
-        
-            <h2>Color</h2>
+            <p id="height">100px</p>
+            
+            <h2>color</h2>
+            <p id="color">#000000</p>
         </section>
         
         <section id="bottom-right">
-            <div id="box"></div>
+            <div id="box"> </div>
         </section>
-    </Article>
+    </main>
+
+    <script src="script.js"></script>
     
 </body>
 </html>
