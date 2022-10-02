@@ -1,0 +1,10 @@
+body{
+    font-family: "Helvetica";
+}
+
+.grid{
+    display: grid;
+    
+    grid-template-columns: [left]200px [right]200px;
+    grid-template-rows: [top]200px [bottom]200px;
+}
