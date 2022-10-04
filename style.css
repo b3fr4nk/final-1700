@@ -1,17 +1,29 @@
+html{
+    height: 100%;
+}
+
 body{
     font-family: "Helvetica";
+    margin: 20px;
+
     display: flex;
+    height: 100%;
+
     justify-content: center;
 
 }
 
 .grid{
+    align-self: center;
+
     display: grid;
     
     grid-template-columns: [left]200px [right]200px;
     grid-template-rows: [top]200px [bottom]200px;
 
     gap: 10px;
+    height: fit-content;
+    width: fit-content;
 
 }
 
